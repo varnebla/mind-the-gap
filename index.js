@@ -8,9 +8,9 @@ is where the engine is).
 The number of carriages in a train can vary from 1 to 26 (i.e. 'A' to 'Z').
 
 Example:
-countMissingCarriages("ABC") //should return 0 because all carriages are present.
-countMissingCarriages("ABD") //should return 1 because carriage C is missing.
-countMissingCarriages("BCF") //should return 3 because carriages A, D, and E are missing.
+countMissingCarriages("ABC") //should return 0 
+countMissingCarriages("ABD") //should return 1 
+countMissingCarriages("BCF") //should return 3 
 */
 
 function countMissingCarriages(train) {
