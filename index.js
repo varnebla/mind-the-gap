@@ -15,6 +15,12 @@ countMissingCarriages("BCF") //should return 3
 
 function countMissingCarriages(train) {
 
+  
+  let last = train.charCodeAt(train.length-1);
+  console.log(last)
+  let res = last-64-train.length;
+  return res
+
   //WRITE YOUR CODE HERE!!🤘
 
 }
