@@ -14,9 +14,17 @@ countMissingCarriages("BCF") //should return 3
 */
 
 function countMissingCarriages(train) {
-
-  //WRITE YOUR CODE HERE!!🤘
-
+  const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  const last = train[train.length-1];
+  console.log(last, 'last');
+  const sizeOfTrain = letters.slice(0, letters.indexOf(last)+1);
+console.log(sizeOfTrain, 'size');
+  const trainArr = train.split('');
+  let missing = 0;
+  for (let i = 0; i< sizeOfTrain.length; i++) {
+    if (trainArr.indexOf(sizeOfTrain[i]) === -1) missing++;
+  }
+ return missing;
 }
 
 module.exports = countMissingCarriages;
