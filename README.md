@@ -26,9 +26,9 @@ You must implement a function that receives the sequence of carriages as a strin
 ### 2.1. Examples
 
 ```js
-countMissingCarriages("ABC") //should return 0 because all carriages are present.
-countMissingCarriages("ABD") //should return 1 because carriage C is missing.
-countMissingCarriages("BCF") //should return 3 because carriages A, D, and E are missing.
+countMissingCarriages("ABC") //should return 0 
+countMissingCarriages("ABD") //should return 1 
+countMissingCarriages("BCF") //should return 3 
 ```
 
 ### 2.2. Testing your solution
